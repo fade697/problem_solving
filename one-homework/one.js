@@ -14,3 +14,17 @@ fs.readFile('NodeJs_course_1.xlsx', function (err, data) {
 
     console.log(jsonData);
 });
+
+
+// const xlsx = require('node-xlsx');
+// const fs = require('fs');
+
+// Read the Excel file using node-xlsx
+// const sheets = xlsx.parse(fs.readFileSync('myFile.xlsx'));
+
+// Access the data in the first sheet (assuming there's only one sheet)
+// const sheetData = sheets[0].data;
+
+// Print the data
+// console.log(sheetData);
+
